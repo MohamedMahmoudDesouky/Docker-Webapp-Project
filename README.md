@@ -19,7 +19,6 @@
 
 ---
 
-
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -33,14 +32,11 @@
    git clone https://github.com/YOUR-USERNAME/DEPI-Project.git
    cd DEPI-Project
 
-Start the services:
-docker-compose up --build
+2. Start the services:
+docker-compose up -d
 
-Access the app:
+3. Access the app:
 Open your browser at: http://localhost:8080 
-To stop the services:
-bash
 
+4. To stop the services:
 docker-compose down
-
-# Docker-Webapp-Project
